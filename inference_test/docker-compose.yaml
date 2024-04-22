@@ -2,7 +2,7 @@ version: '3'
 
 services:
   inference_test:
-    image: c4tiiv0/mlops-puj
+    image: dcrovo/mlops_taller4:inference
     container_name: inference_test
     deploy: 
       mode: replicated
@@ -24,3 +24,5 @@ services:
 networks:
   network1:
     name: testing_default
+    driver: bridge
+    external: true
