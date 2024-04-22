@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   inference_test:
@@ -10,13 +10,12 @@ services:
 
       resources: 
         limits: 
-          cpus: '2'
-          memory: 500M
+          cpus: '1'
+          memory: 512M
         reservations:
-          cpus: '0.25'
-          memory: 200M
+          memory: 256M
     ports:
-      - '8085:8085'
+      - '8084:80'
     restart: always
     networks:
       - network1
