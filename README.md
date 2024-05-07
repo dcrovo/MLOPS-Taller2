@@ -83,3 +83,11 @@ Con el contenedor arriba se accede a la consola de locust,
 
 http://10.43.101.155:8089/ </br>
 <img src="https://github.com/dcrovo/MLOPS-Taller4/blob/main/img/locust.png?raw=true" width="60%" height="60%" /> </br>
+
+## Evidencia de pruebas
+
+A continuación se observan imágenes de las pruebas realizadas.
+
+<img src="https://github.com/dcrovo/MLOPS-Taller4/blob/main/img/locust-1.jpeg?raw=true" width="60%" height="60%" /> </br>
+<img src="https://github.com/dcrovo/MLOPS-Taller4/blob/main/img/locust-2.jpeg?raw=true" width="60%" height="60%" /> </br>
+
